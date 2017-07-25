@@ -27,7 +27,7 @@ BEGIN
         #update the field when nom_entregado like nom loc in second table
         UPDATE georeferencia set registro = 1 where nom_loc like nom_entregado;
 	
-  #end loop
+	#end loop
 	END LOOP get_entregados;
   
   #close the cursor
