@@ -1,0 +1,9 @@
+
+/* You can use in code on classlist object of element */
+/* document.getElementById('element').classlist.add('disabled') */
+/*¨or remove using *.classlist.remove('disabled') to get back work in interface */
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+}
